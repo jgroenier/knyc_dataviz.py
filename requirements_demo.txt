@@ -1,0 +1,21 @@
+Raw Requirements: 
+requests
+xarray
+cfgrib
+pytz
+numpy
+eccodes
+netCDF4
+
+
+Below, [] indicate commands formatted and ready to be executed
+
+Direct Python command:
+[pip3 install requests xarray cfgrib pytz numpy eccodes netCDF4]
+
++ (only if eccodes fails installation via pip)
+(Mac) [brew install eccodes]
+(Windows) [conda install -c conda-forge cfgrib]
+
++
+ensure curl is already installed
